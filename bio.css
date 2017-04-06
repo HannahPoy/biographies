@@ -1,0 +1,21 @@
+.edge {
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.profile{
+	width: 100%
+}
+.click {
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	width: auto;
+	width: 17%;
+	max-width: 150px;
+	margin-bottom: .5%;
+	margin-left: .25%;
+	margin-right: .25%;
+}
