@@ -1,0 +1,74 @@
+a:focus {
+	outline: none;
+}
+
+body { /*Please do not change the color/font of the website so that we all stay uniform for a concistant UX.*/
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #ddd1e7;
+}
+
+.dropdown-submenu { /*from menu code*/
+	position: relative;
+}
+
+.dropdown-submenu .dropdown-menu { /*from menu code*/
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
+}
+
+.headback{
+	background: green;
+}
+
+.headtable{
+	width: 100%;
+	color: #6f6f6f;
+}
+
+img.auto{
+	width: 100%;
+}
+
+td.logo {
+	width: 20%;
+}
+
+table h1 {
+	font-size: 50pt;
+	text-align: center;
+	text-shadow: 1px 1px 2px #4b517c;
+}
+
+@media only screen and (min-width : 1001px) {
+
+	td.logo {
+		width: 200px;
+	}
+	
+	.magic {
+		display: none;
+	}
+	
+	.unfold {
+		display: inline;
+	}
+	
+	.unfold li, .unfold li a {
+		display: inline;	
+	}
+	
+	.unfold {
+		position: static;
+	}
+	
+}
+
+@media only screen and (max-width : 1000px){
+	
+	.magic {
+		display: inline;
+	}
+	
+}
